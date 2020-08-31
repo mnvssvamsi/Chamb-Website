@@ -1,0 +1,107 @@
+.main{
+    background-color: #09284b;
+    background-image: url(../../../images/bg_main.png);
+    padding-bottom: 180px;
+    background-position: center center;
+}
+.row:before, .clearfix:before{
+    display: table;
+    content: " ";
+}
+.row:after, .clearfix:after{
+    clear: both;
+}
+.container{
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* position */
+.find-box{
+    position: relative;
+    top: 25px;
+    max-width: 780px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 88px 0px 75px 0px;
+}
+.find-box h1{
+    font-weight: 500;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 22px;
+    margin: 0;
+}
+.find-box h4{
+    font-weight: 300;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 22px;
+    margin: 0;
+}
+input {
+    outline: none;
+}
+.form-sh input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    min-height: 55px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+}
+@media (min-width: 768px){
+    .col-sm-3 {
+    width: 25%;
+    float: left;
+}
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+}
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.form-sh select{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    min-height: 55px;
+    cursor: pointer;
+}
+.form-sh select option {
+    background-color: #09284b;
+    padding: 10px 15px;
+    cursor: pointer;
+    padding: 3px 20px;
+    font-weight: 400;
+    transition: ease all 0.5s;
+}
+.form-sh a.btn {
+    background: #1d99ff;
+    color: #ffffff;
+    min-height: 55px;
+    width: 100%;
+    line-height: 38px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 3px;
+}

@@ -1,0 +1,68 @@
+.pricing {
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-color: #022446;
+    margin-top: 15vh;
+}
+.pricing--heading {
+    font-weight: 400;
+    font-size: 55px;
+    /* margin-top: 100px; */
+}
+.pricing--text {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.btn-month-year-group {
+   margin-top: 70px;
+   margin-bottom: 50px;
+   position: relative;
+   display: inline-block;
+   cursor: pointer;   
+}
+.btn-month-year-bg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: -100px;
+    width: 200px;
+    height: 40px;
+    background-color: #011b36;
+    border-radius: 30px;
+}
+.clr {
+    display: inline-block;
+    position: absolute;
+    background-color: #1e90ff;
+    width: 100px;
+    height: 40px;  
+    border-radius: 30px; 
+    top: 16px;
+    left: -100px; 
+    transition-duration: 0.5s;    
+}
+.year-trans {
+    left: 0px;
+}
+.btn-month-year {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    font-weight: 500;    
+}
+.btn-monthly {
+    display: inline-block;
+    position: absolute;
+    left: -30px;        
+    border-radius: 30px;
+}
+.btn-yearly {
+    display: inline-block;
+    position: absolute;
+    left: 75px;
+}

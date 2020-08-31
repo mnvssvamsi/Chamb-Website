@@ -1,0 +1,85 @@
+
+nav{
+    /* margin-top:4px; */
+    display: flex;
+    box-sizing: border-box;
+    height: 12vh;
+    width: 100%;
+    padding: 12px 8px 8px 8px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 1px 10px rgba(128, 128, 128,0.08);
+    z-index: 10;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.nav-left{
+    display: flex;
+    width: 50%;
+}
+.Logo {
+    cursor: pointer;
+}
+.Logo img {
+    width: 80%;
+    padding: 5px;
+    border-right: 1px solid grey;
+    vertical-align: middle;
+}
+.search {
+    padding-left: 15px;
+}
+.search input {
+    width: 100%;
+    background: none;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 12px 5px 5px 30px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 1.09em;
+    outline: none;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.NavigationItems{
+    display: flex;
+    align-items: center;
+}
+.pages{
+    border-left: 1px solid #636363;
+    border-right: 1px solid #636363;
+    align-items: center;
+    padding-left: 10px;
+}
+.NavigationItem{
+    margin-right: 10px;
+}
+.NavigationItem a{
+    color: #636363;
+    font-weight: 400;
+}
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active{
+    color: rgb(56, 97, 173);
+}
+.Signup a{
+    padding: 10px 23px;
+    background: #09294c;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+}

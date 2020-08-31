@@ -1,0 +1,192 @@
+.how-it-works {
+    margin: 30px;
+    padding: 70px 0px;
+}
+.row{
+    display: flex;
+}
+.block1{
+    margin-left: 20px;
+}
+/* width */
+@media (min-width: 750px){
+    .col-md-5 {
+        width: 41%;
+    }
+}
+@media (min-width: 750px){
+    .col-md-7 {
+        width: 58%;
+    }
+}
+@media (min-width: 992px){
+    .col-md-1, .col-md-10, .col-md-11,
+     .col-md-12, .col-md-2, .col-md-3,
+      .col-md-4, .col-md-5, .col-md-6,
+       .col-md-7, .col-md-8, .col-md-9 {
+        float: left;
+    }
+}
+.left-works-box h2 {
+    font-size: 25px;
+    color: #333335;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+.left-works-box span {
+    font-weight: 500;
+    font-size: 25px;
+    color: #333335;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+    /* margin:  0 30px; */
+}
+.left-works-box p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0px;
+    color: #333335;
+    padding-right: 80px;
+    line-height: 37px;
+    padding-bottom: 50px;
+}
+.form-email-box h3 {
+    color: #333335;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.box-email {
+    position: relative;
+}
+.box-email input {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+    min-height: 51px;
+    padding-left: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.box-email button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #0a284c;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    padding: 11px 15px;
+    margin: 5px 7px;
+    font-family: 'Raleway', sans-serif;
+}
+/* right side */
+@media(max-width:768px){
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .how-text-left {
+        width: 100%;
+        padding-top: 40px;
+    }
+}
+.box{
+    display: flex;
+}
+.how-text-left {
+    float: left;
+    width: 40%;
+    color: #48cca4;
+    font-weight: bold;
+    font-size: 168px;
+    padding-top: 100px;
+}
+@media only screen and (max-width: 768px){
+    .how-text-left {
+        font-size: 200px;
+    }
+}
+.dit-img img {
+    padding-bottom: 50px;
+}
+.how-dit-right h3 {
+    color: #333335;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.how-dit-right h2 {
+    color: #333335;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 34px;
+    line-height: 42px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    /* width: 325px; */
+}
+.how-dit-right h2 span {
+    font-weight: 700;
+}
+.how-dit-right p {
+    color: #68696b;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 50px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.searching-box .how-text-left {
+    color: #0a284c;
+}
+.sellers-box .how-text-left {
+    color: #4eadff;
+}
+/*
+@media (min-width: 768px){
+    .it-works col-sm-6 {
+        width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .col-sm-1, .col-sm-10, .col-sm-11,
+     .col-sm-12, .col-sm-2, .col-sm-3,
+      .col-sm-4, .col-sm-5, .col-sm-6,
+       .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: left;
+    }
+}
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11,
+ .col-xs-12, .col-xs-2, .col-xs-3,
+  .col-xs-4, .col-xs-5, .col-xs-6,
+   .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11,
+ .col-lg-12, .col-lg-2, .col-lg-3,
+  .col-lg-4, .col-lg-5, .col-lg-6,
+   .col-lg-7, .col-lg-8, .col-lg-9,
+    .col-md-1, .col-md-10, .col-md-11,
+     .col-md-12, .col-md-2, .col-md-3,
+      .col-md-4, .col-md-5, .col-md-6,
+       .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ */
