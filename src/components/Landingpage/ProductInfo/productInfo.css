@@ -1,13 +1,15 @@
 .products_exciting_box {
     background: #f4f9fd;
-    margin: 0;
+    margin: 0px;
 } 
 .f_pd p {
     padding-right: 109px;
 }
 .f_pd{
     border-right: 1px solid rgba(128, 128, 128, 0.3);
-    /* margin-bottom: 5px; */
+}
+.exciting_box{
+    margin-right: 20px;
 }
 .exciting_box p {
     font-size: 16px;
@@ -15,4 +17,9 @@
     margin: 0px;
     padding-bottom: 45px;
     line-height: 30px;
+}
+@media only screen and (max-width :760px){
+     .products_exciting_box .col-sm-12{
+        width: 100%
+    }
 }

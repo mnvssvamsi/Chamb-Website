@@ -1,9 +1,3 @@
-.main{
-    background-color: #09284b;
-    background-image: url(../../../../images/bg_main.png);
-    padding-bottom: 180px;
-    background-position: center center;
-}
 .box-img img {
     width: 212px;
     height: 212px;
@@ -34,23 +28,23 @@
     transform:scale(1.08);
     z-index: 5;
 }
-.col-lg-3,.col-sm-6,.col-md-3{
+.col-sm-6,.col-md-3{
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
-@media (min-width: 992px){
+@media (min-width: 760px){
     .col-md-3{
         width: 25%;
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 760px){
     .col-md-1, .col-md-10, .col-md-11,
-     .col-md-12, .col-md-2, .col-md-3,
-      .col-md-4, .col-md-5, .col-md-6,
-       .col-md-7, .col-md-8, .col-md-9 {
+    .col-md-12, .col-md-2, .col-md-3,
+    .col-md-4, .col-md-5, .col-md-6,
+    .col-md-7, .col-md-8, .col-md-9 {
         float: left;
     }
 }

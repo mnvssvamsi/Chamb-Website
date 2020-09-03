@@ -1,70 +1,91 @@
 .main{
     background-color: #09284b;
     background-image: url(../../../images/bg_main.png);
-    padding-bottom: 180px;
+    padding-bottom: 300px;
     background-position: center center;
+    margin-top: 10vh;
 }
-.row:before, .clearfix:before{
+/* .row:before, .clearfix:before{
     display: table;
     content: " ";
 }
 .row:after, .clearfix:after{
     clear: both;
+} */
+input, select, button{
+    outline: none;
 }
 .container{
-    width: 970px;
+    width: 975px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
-/* position */
 .find-box{
+    margin: 0 95px;
     position: relative;
-    top: 25px;
-    max-width: 780px;
-    margin: 0 auto;
+    top: 30px;
     width: 100%;
-    padding: 88px 0px 75px 0px;
+    /* padding: 70px 0; */
 }
-.find-box h1{
+.find-box h1, .find-box h4{
+    font-size: 2.5em;
     font-weight: 500;
     color: #fff;
-    font-size: 48px;
     text-align: center;
-    padding-bottom: 22px;
-    margin: 0;
 }
 .find-box h4{
-    font-weight: 300;
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-    padding-bottom: 22px;
-    margin: 0;
+    font-size: 1.2em;
+    margin-top: -10px;
 }
-input {
-    outline: none;
+
+@media only screen and (min-width :760px){
+    .content-items{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-items .col-md-6{
+        flex: 2;
+        margin-right: 20px;
+    }
+    .content-items .col-md-3{
+        flex: 1;
+        margin-right: 20px;
+    }
 }
-.form-sh input {
-    background: none;
+.form-sh input, .form-sh select{
+    width: 100%;
     border: none;
     border-bottom: 1px solid #ffffff;
-    width: 100%;
-    min-height: 55px;
+    background: none;
     color: #fff;
+    min-height: 55px;
     font-size: 22px;
     font-weight: 300;
 }
-@media (min-width: 768px){
-    .col-sm-3 {
-    width: 25%;
-    float: left;
+.form-sh select{
+    cursor: pointer;
+    padding: 6px 12px;
 }
-    .col-sm-6 {
-        width: 50%;
-        float: left;
+.form-sh select option {
+    background-color: #09284b;
+    padding: 10px 15px;
+    cursor: pointer;
+    padding: 3px 20px;
+    font-weight: 400;
+    transition: ease all 0.5s;
 }
+.form-sh a.searchButton{
+    background: #1d99ff;
+    width: 100%;
+    border: none;
+    color: #fff;
+    min-height: 55px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 38px;
+    border-radius: 3px;
 }
 .btn{
     display: inline-block;
@@ -76,32 +97,4 @@ input {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-}
-.form-sh select{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: #fff;
-    font-size: 22px;
-    font-weight: 300;
-    min-height: 55px;
-    cursor: pointer;
-}
-.form-sh select option {
-    background-color: #09284b;
-    padding: 10px 15px;
-    cursor: pointer;
-    padding: 3px 20px;
-    font-weight: 400;
-    transition: ease all 0.5s;
-}
-.form-sh a.btn {
-    background: #1d99ff;
-    color: #ffffff;
-    min-height: 55px;
-    width: 100%;
-    line-height: 38px;
-    font-size: 22px;
-    font-weight: 500;
-    border-radius: 3px;
 }

@@ -1,23 +1,43 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Pricing.css';
 import Card from './Card/Card'
 import Navbar from '../../components/Navbar/Navbar';
+import axios from 'axios'
+import Footer from '../../components/Footer/Footer';
 function Pricing() {
 
     const [data, setData] = useState();
+    const [cost, setCost] = useState();
+    const [features, setFeatures] = useState();
+
     const [trans, setTrans] = useState();
     const [isMonthly, setIsMonthly] = useState(true);
 
     useEffect(() => {
-        let api = 'https://5ed296ce717d5f0016518314.mockapi.io/api/v1/pricing-details';
-        fetch(api)
-            .then((response) => {
-                return response.json()
-            }).then(data => {
-                setData(data[0]);
-            }).catch(err => {
-                console.log(err);
-            });
+        axios.get('https://5ed296ce717d5f0016518314.mockapi.io/api/v1/pricing-details')
+            .then(response => {
+                let data;
+                data = response.data
+                // console.log( data[0].monthly)
+                let i;
+                for(i=0; i<data.length; i++){
+                    let innerData = data[i].monthly
+                    console.log(innerData[0])
+                    let typeFree = innerData[0].free;
+                    setData(typeFree);
+                    setCost(typeFree.price)
+                     typeFree.features.map(feature => {
+                        console.log(feature)
+                       return setFeatures(feature)
+                    })
+                    // let typePro = innerData[0].pro;
+                    // setData(typePro);
+                    // setCost(typePro.price)
+                    //  typePro.features.map(feature => {
+                    //    return setFeatures(feature)
+                    // })
+                }
+            })
     }, []);
 
     const getMonthlyData = () => {
@@ -43,8 +63,11 @@ function Pricing() {
                     <span className="btn-yearly" onClick={getYearlyData}>Yearly</span>
                 </p>
             </div>
-            <Card pricingData={data} isMonthly={isMonthly} />
-
+            <Card  pricingData={data} features={features} cost={cost} isMonthly={isMonthly} />
+            {/* <Card  isMonthly={isMonthly} features={features} cost={cost} /> */}
+            {/* <Card pricingData={data} isMonthly={isMonthly} />
+            <Card pricingData={data} isMonthly={isMonthly} /> */}
+            <Footer />            
         </div>
     )
 }

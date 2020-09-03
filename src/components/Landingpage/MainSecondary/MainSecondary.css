@@ -25,11 +25,8 @@
     margin-bottom: 15px;
     font-family: 'Raleway', sans-serif;
 }
-/* .main-box .panel .panel-body p {
-    height: 66px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #607086;
-    line-height: 1.5;
-} */
+@media only screen and (max-width :760px){
+    .hidden-sm{
+        display: none;
+    }
+  }
