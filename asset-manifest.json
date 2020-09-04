@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Chamb-Website/static/css/main.7ea35d2e.chunk.css",
+    "main.js": "/Chamb-Website/static/js/main.9b1697cf.chunk.js",
+    "main.js.map": "/Chamb-Website/static/js/main.9b1697cf.chunk.js.map",
+    "runtime-main.js": "/Chamb-Website/static/js/runtime-main.8a666b20.js",
+    "runtime-main.js.map": "/Chamb-Website/static/js/runtime-main.8a666b20.js.map",
+    "static/js/2.b4e59ae2.chunk.js": "/Chamb-Website/static/js/2.b4e59ae2.chunk.js",
+    "static/js/2.b4e59ae2.chunk.js.map": "/Chamb-Website/static/js/2.b4e59ae2.chunk.js.map",
+    "index.html": "/Chamb-Website/index.html",
+    "precache-manifest.666daf2d5d325451c0b64615181c78b5.js": "/Chamb-Website/precache-manifest.666daf2d5d325451c0b64615181c78b5.js",
+    "service-worker.js": "/Chamb-Website/service-worker.js",
+    "static/css/main.7ea35d2e.chunk.css.map": "/Chamb-Website/static/css/main.7ea35d2e.chunk.css.map",
+    "static/js/2.b4e59ae2.chunk.js.LICENSE.txt": "/Chamb-Website/static/js/2.b4e59ae2.chunk.js.LICENSE.txt",
+    "static/media/FurnitureItems.css": "/Chamb-Website/static/media/bg_main.ec13b457.png",
+    "static/media/Footer.css": "/Chamb-Website/static/media/footer_bg.f87cdbd7.png",
+    "static/media/works-icon-01.png": "/Chamb-Website/static/media/works-icon-01.312d0c81.png",
+    "static/media/works-icon-02.png": "/Chamb-Website/static/media/works-icon-02.86726019.png",
+    "static/media/works-icon-03.png": "/Chamb-Website/static/media/works-icon-03.c7bf2758.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a666b20.js",
+    "static/js/2.b4e59ae2.chunk.js",
+    "static/css/main.7ea35d2e.chunk.css",
+    "static/js/main.9b1697cf.chunk.js"
+  ]
+}
