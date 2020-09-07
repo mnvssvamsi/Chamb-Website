@@ -5,13 +5,6 @@
     background-position: center center;
     margin-top: 10vh;
 }
-/* .row:before, .clearfix:before{
-    display: table;
-    content: " ";
-}
-.row:after, .clearfix:after{
-    clear: both;
-} */
 input, select, button{
     outline: none;
 }
