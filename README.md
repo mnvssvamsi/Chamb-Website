@@ -1,4 +1,5 @@
 Sample website displaying some products and navigating through different pages
+Please click on CHAMB Icon to display the home page .
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
